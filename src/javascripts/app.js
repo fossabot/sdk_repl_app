@@ -223,7 +223,6 @@ var App = {
   'ticket.submit.done',
   'ticket.submit.fail',
   'ticket.submit.always',
-  'ticket.viewers.changed',
   'ticket.updated',
   'ticket.save',
   'ticket.saved',
@@ -236,7 +235,8 @@ var App = {
   'channel.ticket.created',
   'channel.message.received',
   'channel.message.sent',
-  'call.inConference'
+  'call.availabilityState.changed',
+  'call.callState.changed'
 ].forEach(function(key) {
   App.events[key] = function() {
     logEvent(this.currentLocation(), key, arguments);
