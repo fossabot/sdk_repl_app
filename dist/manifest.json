@@ -16,7 +16,8 @@
       "new_ticket_sidebar": "assets/iframe.html",
       "user_sidebar": "assets/iframe.html",
       "organization_sidebar": "assets/iframe.html",
-      "ticket_editor": "assets/iframe.html"
+      "ticket_editor": "assets/iframe.html",
+      "talk_popover": "assets/iframe.html"
     },
     "chat": {
       "chat_sidebar": "assets/iframe.html"
