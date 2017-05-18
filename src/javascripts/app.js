@@ -235,7 +235,8 @@ var App = {
   'channel.start.end',
   'channel.ticket.created',
   'channel.message.received',
-  'channel.message.sent'
+  'channel.message.sent',
+  'call.inConference'
 ].forEach(function(key) {
   App.events[key] = function() {
     logEvent(this.currentLocation(), key, arguments);
