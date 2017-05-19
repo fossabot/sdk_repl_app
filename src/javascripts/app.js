@@ -235,7 +235,7 @@ var App = {
   'channel.ticket.created',
   'channel.message.received',
   'channel.message.sent',
-  'call.availabilityState.changed',
+  'call.onlineState.changed',
   'call.callState.changed'
 ].forEach(function(key) {
   App.events[key] = function() {
